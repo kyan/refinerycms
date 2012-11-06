@@ -10,7 +10,7 @@ module Refinery
     # when collecting the pages path how is each of the pages seperated?
     PATH_SEPARATOR = " - "
 
-    translates :title, :menu_title, :custom_slug, :slug, :include => :seo_meta
+    translates :title, :menu_title, :custom_slug, :slug, :include => :seo_meta, :versioning => true
 
     class Translation
       is_seo_meta
